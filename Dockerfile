@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:11
 WORKDIR /code
 COPY dist /code/dist
 RUN npm install express
